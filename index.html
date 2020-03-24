@@ -1,48 +1,48 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="UTF-8"/>
-    <style>
-        table {border: 1px solid black; border-collapse: collapse; align-content: center;}
-        th, td{border: 1px solid black;}
-        tfoot {text-align: center;}
-        
-    </style>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
 </head>
+
 <body>
-    
-    <table>
-        <caption>Mon compte BNP</caption>
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Libellé</th>
-                <th>Crédit</th>
-                <th>Débit</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>01/05/2016</td><td>Paye</td><td>1500</td><td>0</td>
-            </tr>
-            <tr>
-                <td>01/05/2016</td><td>Courses de la semaine</td><td>0</td><td>152,30</td>
-            </tr>
-            <tr>
-                <td>04/05/2016</td><td>Mc do</td><td>0</td><td>32,40</td>
-            </tr>
-            <tr>
-                <td>05/05/2016</td><td>Loyer</td><td>0</td><td>700</td>
-            </tr>
-            <tr>
-                <td>05/05/2016</td><td>Internet</td><td>0</td><td>39,90</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="2">Solde</td><td colspan="2">575,40</td>
-            </tr>
-        </tfoot>
-    </table>
-</body>
+    <fieldset id="identité">
+        <legend id="legende1">Vos coordonnées</legend>
+        <form>
+            <p>
+                <label>1. Nom :</label>
+                <input type="text" name="Nom" placeholder="Nom" /></br>
+                <label>2. Prénom :</label>
+                <input type="text" name="Prénom" placeholder="Prénom" /></br>
+                <label>3. Adresse mail :</label>
+                <input type="text" name="mail" placeholder="Adresse mail" />
+            </p>
+    </fieldset>
+    <fieldset id="adresse">
+        <legend id="legende2">Adresse de livraison</legend>
+        <p>
+            <label>1. Adresse :</label>
+            <textarea rows="6" maxlength="1500"></textarea></br>
+            <label>2. Code postal :</label>
+            <input type="number" maxLength="5" name="codepostal" placeholder="Code postal" /></br>
+            <label>3. Ville :</label>
+            <input type="text" name="ville" placeholder="Ville" /></br>
+        </p>
+    </fieldset>
+    <fieldset id="infos">
+        <legend id="legende3">Informations de réglement</legend>
+        <p>
+            <label>1. Type de carte bancaire :</label></br>
+            <input type="checkbox" /><label>VISA</label></br>
+            <input type="checkbox" /><label>Mastercard</label></br>
+            <label>2. Numéro de carte :</label><input type="number" placeholder="Numéro de carte" /></br>
+            <label>3. Code de sécurité :</label><input type="number" placeholder="Code de sécurité" /></br>
+            <label>4. Nom du titulaire :</label><input type="text" placeholder="Nom du titulaire" /></br>
+        </p>
+    </fieldset>
+
+    <input type="submit" value="J'achète !" </body>
+
 </html>

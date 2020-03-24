@@ -1,63 +1,14 @@
-.parent {
-    display: flex;
-    border: 3px solid black;
-    height: auto;
-    width: auto;
-    flex-wrap: wrap;
+#identité,
+#legende1 {
+    background-color: cadetblue;
 }
 
-.green-box {
-    background-color: yellowgreen;
-    width: 80%;
-    height: 50px;
-    order: 1;
+#adresse,
+#legende2 {
+    background-color: purple;
 }
 
-.blue-box {
-    background-color: royalblue;
-    width: 20%;
-    height: 50px;
-    order: 2;
-}
-
-.red-box {
-    background-color: red;
-    width: 33.33333%;
-    height: 200px;
-    order: 3;
-}
-
-.lightorange-box {
-    background-color: orange;
-    width: 33.33333%;
-    height: 100px;
-    order: 4;
-}
-
-.lightgrey-box {
-    background-color: lightgray;
-    width: 33.33333%;
-    height: 100px;
-    order: 5;
-}
-
-.yellow-box {
-    background-color: yellow;
-    width: 10%;
-    height: 50px;
-    order: 5;
-}
-
-.cyan-box {
-    background-color: cyan;
-    width: 10%;
-    height: 50px;
-    order: 5;
-}
-
-.orange-box {
-    background-color: orangered;
-    width: 10%;
-    height: 50px;
-    order: 5;
+#infos,
+#legende3 {
+    background-color: violet;
 }
