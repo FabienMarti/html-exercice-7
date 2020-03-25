@@ -3,6 +3,10 @@
     background-color: #2574A9;
 }
 
+li {
+    padding: 1px;
+}
+
 #adresse,
 #legende2 {
     background-color: #9A12B3;
@@ -13,6 +17,6 @@
     background-color: #DB0A5B;
 }
 
-#CB {
+.CB {
     margin-left: 50px;
 }
